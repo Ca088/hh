@@ -1,0 +1,63 @@
+body{
+    border: 5px solid black;
+    background-color: lightyellow;
+    
+}
+.top-bar{
+    background-color: orange;
+    position:fixed;
+    color:white;
+}
+div.top-bar+h1{
+    color: orange;
+    
+}
+h1+h2{ 
+    color:orange;
+    
+}
+.list-item{
+    color:black;
+    
+    border: 3px solid orange;
+    margin: 10px;
+}
+div.list-item+h2{
+    color:orange;
+    
+}
+*{
+    padding: 10px;
+}
+.special-note{
+    color:black;
+    background-color: rgb(235, 159, 18);
+    position: relative;
+    left:10px;
+}
+div.special-note+h2{
+    color:orange;
+    
+}
+.pet-card{
+    position: relative;
+    background-color: white;
+    border: 3px solid orange;
+}
+.badge{
+    position: absolute;
+    color:green;
+    background-color: lightgreen;
+    top:8px;
+    right:8px;
+    padding: 5px;
+}
+h2{
+    color:orange;
+}
+.section-label{
+    position:sticky;
+    top:55;
+    margin:15px;
+    background-color: orange;
+}
